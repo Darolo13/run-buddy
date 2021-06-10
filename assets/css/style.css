@@ -82,9 +82,7 @@ section {
     background-position: center;
     position: relative;
 }
-
-
-
+/*hero styles end */
 
 .hero-form {
     border: 3px solid #024e76;
@@ -106,18 +104,6 @@ section {
     margin: 5px 0 15px 0;
 }
 
-.hero-form label {
-    margin: 0 5px;
-}
-
-.hero-form button {
-    color: #fce138;
-    background-color: #024e76;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-  }
-/*hero styles end */
 
 .form-input {
     border: 1px solid #024e76;
@@ -129,3 +115,15 @@ section {
     margin-bottom: 15px
 }
 
+.hero-form label {
+    margin: 0 5px;
+}
+
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
