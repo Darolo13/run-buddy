@@ -6,10 +6,8 @@
 
 body {
       /* more on this crazy alphanumerical value in a minute! */
-      font-family: Helvetica, Arial, Sans-serif;
   color: #39a6b2;
-   
-   
+  font-family: Helvetica, Arial, Sans-serif;
 }
 
 header{
@@ -48,7 +46,7 @@ header nav ul li a {
 }
 
 footer {
-    background: #fec138;
+    background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
@@ -126,25 +124,7 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-  }
-
-  /* what we do intro */
-  .section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-  }
-  
-  .primary-border {
-    border-color: #fce138;
-  }
-  
-  .secondary-border {
-    border-color: #39a6b2;
-  }
+}
 
 .intro {
     text-align: center;
@@ -157,7 +137,7 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
-/* End intro */
+
 
 .steps {
     text-align: center;
@@ -187,6 +167,23 @@ section {
 .steps span {
     font-size: 38px;
 }
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  
+  .primary-border {
+    border-color: #fce138;
+  }
+  
+  .secondary-border {
+    border-color: #39a6b2;
+  }
 
 /*meet you trainers*/
 .trainers {
